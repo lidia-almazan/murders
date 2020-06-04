@@ -4,6 +4,6 @@ download-data.R - Downloads csv file to data directory
 
 wrangle-data.R - Creates a derived dataset and saves as R object in rdas directory
 
-analysis.R - A plot is generated and saved in the figs directory.
+analysis.R - A plot is generated and saved in the figs directory
 
-The report of the results is available in report.md.
+report.md - A report of the results is presented
