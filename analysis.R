@@ -7,3 +7,8 @@ murders %>% mutate(abb = reorder(abb, rate)) %>%
   coord_flip()
 
 ggsave("figs/barplot.png")
+
+murders %>%
+  ggplot(aes(population, total, label =abb, color = region)) +
+  geom_label()
+
